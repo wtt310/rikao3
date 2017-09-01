@@ -1,0 +1,77 @@
+body {
+  width: 100%;
+  font-size: .12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column; }
+
+header {
+  height: .45rem;
+  border-bottom: 10px solid #eee; }
+  header .nav-list {
+    display: flex; }
+    header .nav-list li {
+      width: 20%;
+      margin-left: 10%;
+      line-height: .43rem;
+      color: #ccc;
+      text-align: center;
+      font-size: .14rem; }
+    header .nav-list .bg {
+      color: blue;
+      border-bottom: 2px solid blue; }
+
+section {
+  flex: 1;
+  overflow-y: scroll; }
+  section .xin {
+    display: flex;
+    flex-direction: column; }
+    section .xin .item {
+      width: 90%;
+      margin: .1rem 5% 0 5%;
+      border-radius: 5px;
+      border: 1px solid #ccc; }
+      section .xin .item .top {
+        position: relative;
+        color: #fff;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        padding-bottom: .02rem; }
+        section .xin .item .top span {
+          position: absolute;
+          left: 5%;
+          top: 3%;
+          font-size: .24rem; }
+        section .xin .item .top h3 {
+          font-size: .6rem;
+          margin-left: .5rem;
+          line-height: .6rem; }
+        section .xin .item .top b {
+          position: absolute;
+          right: 5%;
+          bottom: 10%;
+          font-size: .18rem; }
+      section .xin .item .bt {
+        display: flex;
+        flex-direction: column; }
+        section .xin .item .bt li {
+          width: 90%;
+          margin: .05rem 5% 0 5%;
+          display: flex; }
+          section .xin .item .bt li:nth-child(1) i {
+            color: blue;
+            margin-right: .05rem; }
+          section .xin .item .bt li:nth-child(1) p {
+            color: blue; }
+          section .xin .item .bt li:nth-child(2) {
+            padding-bottom: .05rem; }
+            section .xin .item .bt li:nth-child(2) i {
+              color: #ccc;
+              margin-right: .05rem; }
+            section .xin .item .bt li:nth-child(2) p {
+              color: #ccc; }
+
+/*# sourceMappingURL=style.css.map */
